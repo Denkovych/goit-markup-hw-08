@@ -546,10 +546,9 @@ body {
   margin-right: auto;
 }
 
-.footer-box {
+/*.footer-box {
   display: flex;
-}
-
+}*/
 .footer-box__left {
   margin-right: 70px;
   margin-top: 60px;

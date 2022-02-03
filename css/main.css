@@ -306,6 +306,12 @@ body {
   margin-bottom: 94px;
 }
 
+@media screen and (max-width: 1199px) {
+  .whatwedo {
+    display: none;
+  }
+}
+
 .whatwedo__title {
   font-size: 36px;
   line-height: 42px;

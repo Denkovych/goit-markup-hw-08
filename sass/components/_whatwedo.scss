@@ -1,0 +1,38 @@
+.whatwedo {
+  margin-bottom: 94px;
+}
+.whatwedo__title {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.our-work {
+  display: flex;
+}
+.our-work__item {
+  margin-right: 30px;
+  position: relative;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.our-work__box-for-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.our-work__title {
+  width: 100%;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}

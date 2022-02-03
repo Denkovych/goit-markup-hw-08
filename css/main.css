@@ -175,7 +175,6 @@ body {
 }
 
 .hero {
-  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
@@ -237,6 +236,31 @@ body {
   justify-content: center;
 }
 
+.advantages {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  margin-bottom: 94px;
+}
+
+@media screen and (min-width: 480px) {
+  .advantages {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 728px) {
+  .advantages {
+    width: 728px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advantages {
+    width: 1200px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .advantages__list {
     display: flex;
@@ -272,11 +296,6 @@ body {
   margin-right: 0;
 }
 
-.advantages {
-  background-color: #fff;
-  margin-bottom: 94px;
-}
-
 .advantages__title {
   font-weight: bold;
   font-size: 14px;
@@ -303,12 +322,20 @@ body {
 }
 
 .whatwedo {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 94px;
 }
 
 @media screen and (max-width: 1199px) {
   .whatwedo {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .whatwedo {
+    width: 1200px;
   }
 }
 
@@ -379,6 +406,24 @@ body {
 
 .our-team__list {
   /*display: flex;*/
+}
+
+@media screen and (min-width: 480px) {
+  .our-team__list {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 728px) {
+  .our-team__list {
+    width: 728px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .our-team__list {
+    width: 1200px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -478,7 +523,27 @@ body {
 }
 
 .customers {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 94px;
+}
+
+@media screen and (min-width: 480px) {
+  .customers {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 728px) {
+  .customers {
+    width: 728px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .customers {
+    width: 1200px;
+  }
 }
 
 .customers__title {
@@ -489,8 +554,12 @@ body {
   letter-spacing: 0.03em;
 }
 
-.customers__list {
-  display: flex;
+@media screen and (min-width: 480px) {
+  .customers__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+  }
 }
 
 .customers__item {

@@ -16,6 +16,8 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 a {
   text-decoration: none;
@@ -23,13 +25,7 @@ a {
 button {
   cursor: pointer;
 }
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .not-see {
   display: none;
 }

@@ -1,5 +1,8 @@
 .whatwedo {
   margin-bottom: 94px;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 .whatwedo__title {
   font-size: 36px;

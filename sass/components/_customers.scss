@@ -1,4 +1,16 @@
 .customers {
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 728px) {
+    width: 728px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
   margin-bottom: 94px;
 }
 .customers__title {
@@ -9,7 +21,11 @@
   letter-spacing: 0.03em;
 }
 .customers__list {
-  display: flex;
+  @media screen and (min-width: 480px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+  }
 }
 .customers__item {
   margin-right: 30px;

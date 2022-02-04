@@ -2,20 +2,50 @@
   background-color: $footerColor;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and(min-width: 1200px) {
+    padding: 0;
+  }
 }
-/*.footer-box {
-  display: flex;
-}*/
+
+.footer-box {
+  @media screen and(min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+  }
+}
+.box-tablet {
+  @media screen and(min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  @media screen and(min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+  }
+}
 .footer-box__left {
   text-align: center;
-  /* margin-right: 70px;
-  margin-top: 60px;*/
+
+  @media screen and(min-width: 1200px) {
+    margin-right: 70px;
+    margin-top: 60px;
+    text-align: left;
+  }
   margin-bottom: 60px;
 }
 .footer-box__center {
-  /*margin-right: 93px;
-  margin-top: 72px;*/
-  margin-bottom: 100px;
+  @media screen and(max-width: 767px) {
+    margin-bottom: 60px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    margin-right: 93px;
+    margin-top: 72px;
+    margin-bottom: 100px;
+  }
 }
 /*.footer-box__right {
   margin-top: 72px;
@@ -31,12 +61,16 @@
 .contact {
   font-style: normal;
 }
-/*.contact__item {
-  margin-bottom: 9px;
+.contact__item {
+  margin-bottom: 8px;
   &:nth-child(1) {
     margin-top: 20px;
   }
-}*/
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 9px;
+  }
+}
+
 .contact__link {
   font-weight: 500;
   font-size: 14px;
@@ -71,6 +105,11 @@
 .social-net__icon--appearance {
   fill: #fff;
 }
+.subscription {
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+}
 .subscription__title {
   font-weight: bold;
   font-size: 14px;
@@ -80,14 +119,26 @@
   color: #ffffff;
   margin-bottom: 20px;
 }
+.subscription__label {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: flex;
+    justify-content: center;
+  }
+}
 .subscription__input {
+  margin-bottom: 20px;
   padding-left: 16px;
-  width: 358px;
+  width: 450px;
   height: 50px;
   color: #fff;
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-right: 12px;
+  }
 }
 .btn {
   text-align: start;

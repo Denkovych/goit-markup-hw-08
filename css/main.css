@@ -763,6 +763,13 @@ body {
   background-color: #fff;
 }
 
+@media screen and (max-width: 1199px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+}
+
 .modal-close {
   position: absolute;
   right: 8px;
@@ -800,6 +807,12 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 12px;
+}
+
+@media screen and (max-width: 1199px) {
+  .modal-form__title {
+    line-height: 30px;
+  }
 }
 
 .modal-form__field {
@@ -879,6 +892,13 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1199px) {
+  .modal-checkbox {
+    font-size: 12px;
+    line-height: 14px;
+  }
 }
 
 .modal-checkbox__label {
@@ -974,8 +994,27 @@ body {
 }
 
 .product {
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
+}
+
+@media screen and (min-width: 480px) {
+  .product {
+    width: calc(100% - 30px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .product {
+    width: calc(100% / 3 - 30px);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .product {
+    width: calc(100% / 6 - 30px);
+    margin-bottom: 0;
+  }
 }
 
 .product__item {

@@ -1055,6 +1055,10 @@ body {
   margin-bottom: 20px;
 }
 
+.product__img {
+  width: 100%;
+}
+
 .product__info {
   font-weight: normal;
   font-size: 18px;

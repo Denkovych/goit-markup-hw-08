@@ -78,8 +78,14 @@ body {
 .navigation {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .navigation {
+    align-items: baseline;
+    justify-content: space-between;
+  }
 }
 
 .logo {
@@ -88,7 +94,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   color: #2196f3;
-  margin-right: 93px;
+  margin-right: 88px;
 }
 
 .logo__part {
@@ -106,7 +112,13 @@ body {
 }
 
 .navigation__item:last-child {
-  margin-right: 305px;
+  margin-right: 84px;
+}
+
+@media screen and (min-width: 1200px) {
+  .navigation__item:last-child {
+    margin-right: 305px;
+  }
 }
 
 .navigation__link {
@@ -141,25 +153,41 @@ body {
   left: 0;
 }
 
-.contacts {
-  display: flex;
+@media screen and (min-width: 1200px) {
+  .contacts {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .contacts__item + .contacts__item {
-  margin-left: 30px;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts__item + .contacts__item {
+    margin-left: 30px;
+  }
 }
 
 .contacts__link {
   display: flex;
   align-items: center;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.15;
+  font-size: 12px;
+  line-height: 14px;
   color: #757575;
   fill: #757575;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts__link {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 
 .contacts__link:hover {
@@ -168,10 +196,16 @@ body {
 }
 
 .contacts__icon {
-  margin-right: 10px;
+  margin-right: 8px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts__icon {
+    margin-right: 10px;
+  }
 }
 
 .hero {

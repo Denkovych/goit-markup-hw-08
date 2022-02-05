@@ -81,6 +81,12 @@ body {
   margin: auto;
 }
 
+@media screen and (max-width: 767px) {
+  .navigation {
+    justify-content: space-between;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .navigation {
     align-items: baseline;
@@ -97,6 +103,12 @@ body {
   margin-right: 88px;
 }
 
+@media screen and (max-width: 767px) {
+  .logo {
+    margin: 16px 0 16px 15px;
+  }
+}
+
 .logo__part {
   color: #212121;
 }
@@ -105,6 +117,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .navigation__list {
+    display: none;
+  }
 }
 
 .navigation__item {
@@ -151,6 +169,12 @@ body {
   opacity: 0;
   bottom: 0;
   left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -206,6 +230,111 @@ body {
   .contacts__icon {
     margin-right: 10px;
   }
+}
+
+.mob-menu {
+  position: relative;
+  padding-top: 48px;
+  padding-left: 40px;
+}
+
+@media screen and (min-width: 468px) {
+  .mob-menu {
+    width: 468px;
+  }
+}
+
+.menu-close-btn {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.menu-close-btn:hover .menu-close__icon {
+  fill: #2196f3;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-open-btn {
+    display: none;
+  }
+}
+
+.menu-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.menu-link {
+  margin-bottom: 302px;
+}
+
+.menu-link__item {
+  margin-bottom: 32px;
+}
+
+.menu-link__item:last-child {
+  margin-bottom: 0;
+}
+
+.menu-link__link {
+  font-size: 40px;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.menu-link__link:hover, .menu-link__link:focus {
+  color: #2196f3;
+}
+
+.menu-contacts__tel {
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+.menu-contacts__tel + .menu-contacts__mail {
+  margin-bottom: 32px;
+}
+
+.menu-contacts__mail {
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.menu-contacts__item + .menu-contacts__item {
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.menu-social {
+  display: flex;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+  margin-bottom: 48px;
+}
+
+.menu-social__item {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+
+.menu-social__item:nth-child(1) {
+  padding-left: 0;
+}
+
+.menu-social__item:last-child {
+  border-right: none;
 }
 
 .hero {

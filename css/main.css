@@ -234,14 +234,21 @@ body {
 
 .mob-menu {
   position: relative;
-  padding-top: 48px;
-  padding-left: 40px;
+  padding: 48px 40px;
 }
 
 @media screen and (min-width: 468px) {
   .mob-menu {
     width: 468px;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
+
+.mob-menu--ishiden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
 
 .menu-close-btn {
@@ -316,11 +323,6 @@ body {
 
 .menu-social {
   display: flex;
-  font-size: 18px;
-  line-height: 22px;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-  margin-bottom: 48px;
 }
 
 .menu-social__item {
@@ -335,6 +337,13 @@ body {
 
 .menu-social__item:last-child {
   border-right: none;
+}
+
+.menu-social__link {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
 }
 
 .hero {

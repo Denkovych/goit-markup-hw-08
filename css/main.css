@@ -250,11 +250,20 @@ body {
   justify-content: space-between;
 }
 
-/*.mob-menu--ishiden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
-}*/
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+}
+
+.js-menu-container {
+  display: none;
+}
+
+.js-menu-container.is-open {
+  display: block;
+}
+
 .menu-close-btn {
   width: 40px;
   height: 40px;

@@ -610,7 +610,7 @@ body {
 .social-net {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .social-net__item {

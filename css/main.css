@@ -279,10 +279,22 @@ body {
   fill: #2196f3;
 }
 
+.menu-open-btn {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border: none;
+}
+
 @media screen and (min-width: 768px) {
   .menu-open-btn {
     display: none;
   }
+}
+
+.menu-open-btn:focus .menu-open-btn__icon,
+.menu-open-btn:hover .menu-open-btn__icon {
+  fill: #2196f3;
 }
 
 .menu-link__item {

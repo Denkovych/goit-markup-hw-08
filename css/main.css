@@ -878,13 +878,18 @@ body {
 }
 
 .social-net__title {
-  text-align: center;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1199px) {
+  .social-net__title {
+    text-align: center;
+  }
 }
 
 .social-net__link--appearance {

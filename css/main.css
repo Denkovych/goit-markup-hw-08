@@ -939,7 +939,7 @@ body {
 .subscription__input {
   margin-bottom: 20px;
   padding-left: 16px;
-  width: 450px;
+  width: 100%;
   height: 50px;
   color: #fff;
   background-color: #2f303a;
@@ -992,16 +992,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
   background-color: #fff;
-}
-
-@media screen and (max-width: 1199px) {
-  .modal {
-    width: 450px;
-    height: 609px;
-  }
 }
 
 .modal-close {
@@ -1069,7 +1060,6 @@ body {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding-left: 42px;
 }
 
 .modal-form__input:hover, .modal-form__input:focus {
@@ -1090,12 +1080,11 @@ body {
 
 .modal-form__coments {
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .modal-form__coments textarea {
   width: 100%;
-  height: 120px;
   padding-top: 12px;
   padding-left: 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1116,6 +1105,12 @@ body {
 .modal-form__coments textarea:hover {
   cursor: pointer;
   outline: 1px solid #2196f3;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form__coments {
+    margin-bottom: 25px;
+  }
 }
 
 .modal-checkbox {

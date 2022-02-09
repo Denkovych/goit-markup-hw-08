@@ -220,12 +220,24 @@
     
         <ul class="our-team__list">
            <li class="our-team__item"> 
-                <img class="our-team__img" 
-                srcset="./images/ourteam/photoigor-des-x1-min.jpg 1x,
-                        ./images/ourteam/photoigor-des-x2-min.jpg 2x"       
-                src="./images/ourteam/photoigor.jpg" 
-                alt="Фото Ігоря"  >  
-            <div>    
+               <picture>
+                   <source 
+                        srcset="./images/ourteam/photoigor-des-x1-min.jpg 1x,
+                        ./images/ourteam/photoigor-des-x2-min.jpg 2x " 
+                        media="(min-width:1200px)">
+                    <source
+                    srcset="./images/ourteam/photoigor-tab-x1-min.jpg 1x,
+                        ./images/ourteam/photoigor-tab-x2-min.jpg 2x "
+                        media="(min-width:768px)">    
+                    <source srcset="./images/ourteam/photoigor-mob-x1-min.jpg 1x,
+                        ./images/ourteam/photoigor-mob-x2-min.jpg 2x "
+                        media="(min-width:480px)">
+
+                        <img class="" 
+                        src="./images/ourteam/photoigor.jpg" 
+                        alt="Фото Ігоря">
+               </picture>
+               
                     <h3 class="our-team__name">Игорь Демьяненко</h3>
                     <p class="our-team__position">Product Designer</p>
                         <ul class="social-net">
@@ -266,14 +278,25 @@
                                 </a>
                             </li>
                         </ul>
-            </div>
+            
             </li>
            <li class="our-team__item">
-                <img class="our-team__img"
-                srcset="./images/ourteam/photoolia-des-x1-min.jpg 1x,
-                        ./images/ourteam/photoolia-des-x2-min.jpg 2x" 
-                src="./images/ourteam/photoolia.jpg" 
-                alt="Фото Олі" >
+               <picture>
+                   <source
+                            srcset="./images/ourteam/photoolia-des-x1-min.jpg 1x,
+                                ./images/ourteam/photoolia-des-x2-min.jpg 2x" 
+                                media="(min-width:1200px)"> 
+                    <source srcset="./images/ourteam/photoolia-tab-x1-min.jpg 1x,
+                                ./images/ourteam/photoolia-tab-x2-min.jpg 2x" 
+                                media="(min-width:768px)">
+                    <source srcset="./images/ourteam/photoolia-mob-x1-min.jpg 1x,
+                                ./images/ourteam/photoolia-mob-x2-min.jpg 2x" 
+                                media="(min-width:320px)">
+                    <img 
+                    src="./images/ourteam/photoolia.jpg" 
+                    alt="Фото Олі">
+               </picture>
+                
             <div>    
                     <h3 class="our-team__name">Ольга Репина</h3>
                     <p class="our-team__position">Frontend Developer</p>
@@ -315,11 +338,23 @@
             </li>
 
            <li class="our-team__item"> 
-                <img class="our-team__img" 
-                srcset="./images/ourteam/photonick-des-x1-min.jpg 1x, 
-                        ./images/ourteam/photonick-des-x2-min.jpg 2x"
-                src="./images/ourteam/photonick.jpg" 
-                alt="Фото Миколи" >
+               <picture>
+                    <source
+                            srcset="./images/ourteam/photonick-des-x1-min.jpg 1x, 
+                                ./images/ourteam/photonick-des-x2-min.jpg 2x"
+                                media="(min-width:1200px)">
+                    <source srcset="./images/ourteam/photonick-tab-x1-min.jpg 1x, 
+                                ./images/ourteam/photonick-tab-x2-min.jpg 2x" 
+                                media="(min-width:768px)">
+                    <source
+                            srcset="./images/ourteam/photonick-mob-x1-min.jpg 1x, 
+                                    ./images/ourteam/photonick-mob-x2-min.jpg 2x"
+                                    media="(min-width:320px)">
+                    <img 
+                        src="./images/ourteam/photonick.jpg"
+                        alt="Фото Миколи">
+               </picture>
+                
             <div>   
                     <h3 class="our-team__name">Николай Тарасов</h3>
                     <p class="our-team__position">Marketing</p>
@@ -360,10 +395,24 @@
             </div>
             </li>
             <li class="our-team__item"> 
-                <img class="our-team__img"
-                srcset="./images/ourteam/photomikh-des-x1-min.jpg 1x,
-                        ./images/ourteam/photomikh-des-x2-min.jpg 2x" 
-                src="./images/ourteam/photomikh.jpg" alt="Фото Михайла">
+                <picture>
+                    <source
+                        srcset="./images/ourteam/photomikh-des-x1-min.jpg 1x,
+                        ./images/ourteam/photomikh-des-x2-min.jpg 2x"
+                        media="(min-width:1200px)">
+                    <source 
+                        srcset="./images/ourteam/photomikh-tab-x1-min.jpg 1x,
+                        ./images/ourteam/photomikh-tab-x2-min.jpg 2x" 
+                        media="(min-width:768px)">
+                    <source 
+                        srcset="./images/ourteam/photomikh-mob-x1-min.jpg 1x,
+                        ./images/ourteam/photomikh-mob-x2-min.jpg 2x" 
+                        media="(min-width:320px)">
+                    <img 
+                    src="./images/ourteam/photomikh.jpg" 
+                    alt="Фото Михайла">
+                </picture>
+               
             <div>   
                     <h3 class="our-team__name">Михаил Ермаков</h3>
                     <p class="our-team__position">UI Designer</p>

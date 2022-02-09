@@ -395,6 +395,7 @@ body {
 
 @media screen and (min-width: 1200px) {
   .hero {
+    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/people-work.jpg);
@@ -1024,6 +1025,12 @@ body {
   justify-self: center;
 }
 
+@media screen and (max-width: 479px) {
+  .modal-form {
+    width: 100%;
+  }
+}
+
 .modal-form__title {
   font-weight: bold;
   font-size: 20px;
@@ -1037,6 +1044,18 @@ body {
 @media screen and (max-width: 1199px) {
   .modal-form__title {
     line-height: 30px;
+  }
+}
+
+.modal-form__box {
+  width: 370px;
+  height: 342px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form__box {
+    width: 448px;
   }
 }
 
@@ -1056,15 +1075,22 @@ body {
 }
 
 .modal-form__input {
-  width: 100%;
+  width: 370px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  margin-top: 4px;
 }
 
 .modal-form__input:hover, .modal-form__input:focus {
   cursor: pointer;
   outline: 1px solid #2196f3;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-form__input {
+    width: 448px;
+  }
 }
 
 .modal-form__icon {

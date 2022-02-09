@@ -42,6 +42,10 @@
   & div {
     justify-self: center;
   }
+
+  @media screen and(max-width:479px) {
+    width: 100%;
+  }
 }
 .modal-form__title {
   font-weight: bold;
@@ -53,6 +57,15 @@
   margin-bottom: 12px;
   @media screen and (max-width: 1199px) {
     line-height: 30px;
+  }
+}
+.modal-form__box {
+  width: 370px;
+  height: 342px;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 1200px) {
+    width: 448px;
   }
 }
 
@@ -70,15 +83,20 @@
   }
 }
 .modal-form__input {
-  width: 100%;
+  width: 370px;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  margin-top: 4px;
 
   &:hover,
   &:focus {
     cursor: pointer;
     outline: 1px solid $hoverColor;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 448px;
   }
 }
 .modal-form__icon {

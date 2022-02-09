@@ -16,13 +16,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
   background-color: #fff;
-  @media screen and (max-width: 1199px) {
-    width: 450px;
-    height: 609px;
-  }
 }
 .modal-close {
   position: absolute;
@@ -80,7 +74,6 @@
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding-left: 42px;
 
   &:hover,
   &:focus {
@@ -100,10 +93,9 @@
 }
 .modal-form__coments {
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   & textarea {
     width: 100%;
-    height: 120px;
     padding-top: 12px;
     padding-left: 16px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -124,6 +116,10 @@
   & textarea:hover {
     cursor: pointer;
     outline: 1px solid $hoverColor;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 25px;
   }
 }
 .modal-checkbox {

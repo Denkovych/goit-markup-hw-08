@@ -1252,14 +1252,14 @@ body {
 }
 
 .portfolio {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 1200px) {
   .portfolio {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
@@ -1393,6 +1393,7 @@ body {
   color: #212121;
   margin-bottom: 4px;
   margin-left: 24px;
+  margin-right: 24px;
 }
 
 .product__type {

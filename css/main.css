@@ -232,6 +232,20 @@ body {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .contacts__icon--size {
+    width: 14px;
+    height: 10px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .contacts__icon--size-phone {
+    width: 10px;
+    height: 14px;
+  }
+}
+
 .mob-menu {
   width: 100%;
   z-index: 1;

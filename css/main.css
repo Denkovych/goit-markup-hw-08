@@ -1099,7 +1099,6 @@ body {
 
 .modal-form__box {
   width: 370px;
-  height: 342px;
   margin-bottom: 20px;
 }
 
@@ -1136,6 +1135,7 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-top: 4px;
+  padding-left: 45px;
 }
 
 .modal-form__input:hover, .modal-form__input:focus {
@@ -1158,7 +1158,7 @@ body {
 .modal-form__icon {
   position: absolute;
   left: 15px;
-  top: 54%;
+  bottom: 14px;
 }
 
 .modal-form__input:hover + .modal-form__icon,
@@ -1192,12 +1192,6 @@ body {
 .modal-form__coments textarea:hover {
   cursor: pointer;
   outline: 1px solid #2196f3;
-}
-
-@media screen and (min-width: 1200px) {
-  .modal-form__coments {
-    margin-bottom: 25px;
-  }
 }
 
 .modal-checkbox {
